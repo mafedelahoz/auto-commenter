@@ -6,10 +6,16 @@ Products/
 # Actual activity data (keep templates)
 tracking/reddit/*.md
 !tracking/reddit/template.md
+tracking/quora/*.md
+!tracking/quora/template.md
+tracking/tripadvisor/*.md
+!tracking/tripadvisor/template.md
 
-# Actual leads data
+# Actual leads data (real lead info about real third-party users — never commit)
 leads/*.md
-!leads/reddit.md
+
+# Playwright MCP scraped page snapshots (may contain real page content, names, etc.)
+.playwright-mcp/
 
 # Personal personalization files (users should create their own)
 .claude/skills/reddit-commenter/resources/personalization_reddit.md.personal

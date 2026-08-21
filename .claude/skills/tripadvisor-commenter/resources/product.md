@@ -1,5 +1,10 @@
 # Product Information: CuddlyNest
 
+> Same product as the Reddit skill's product.md. See SKILL.md's warning at
+> the top of this skill before using any of the promotional framing below —
+> TripAdvisor is a direct competitor and the default posture here is no
+> product mention at all.
+
 ---
 
 ## Core Value
@@ -25,34 +30,23 @@
 
 | Competitor | Your Differentiation |
 |------------|---------------------|
+| **TripAdvisor itself** | TripAdvisor is primarily reviews-first with booking bolted on; CuddlyNest is booking-first with unified search across hotels, homes, flights, and activities in one flow |
 | **Airbnb** | CuddlyNest isn't limited to home rentals — hotels, hostels, villas, and B&Bs are all searchable in one place, plus flights and activities alongside stays |
 | **Booking.com** | Adds AI-personalized itinerary building (not just a hotel search) and price watchlists so you're not manually refreshing for a better rate |
-| **Expedia / Vrbo** | Pulls inventory from multiple major sources into one unified search instead of one company's own listings, so more options show up per search |
 
 ---
 
-## Roadmap
+## Only-If-Explicitly-Approved Framing
 
-1. Phase 1: Unified search across stays, flights, and attractions (live)
-2. Phase 2: AI-personalized itinerary building based on past searches and booking history
-3. Future: Deeper price-tracking/watchlist tools, expanded loyalty rewards for app users
-
----
-
-## Reddit-Friendly Descriptions
+Do not use any of this unless the user has separately confirmed accepting
+the elevated TripAdvisor-specific risk described in SKILL.md.
 
 ### Product Description
-> "CuddlyNest is basically a travel app that lets you search hotels, homes, flights, and things-to-do in one place instead of bouncing between five different sites."
-
-### Pain Point Empathy
-> "I got so tired of having Airbnb, Booking, and a flights tab all open at once just to plan one trip."
+> "CuddlyNest is a travel app that lets you search hotels, homes, flights, and things-to-do in one place instead of bouncing between five different sites."
 
 ### Honest Reviewer Angle (not a founder story)
 > "Not affiliated, just started using it because I wanted one place to compare stays instead of checking three apps every time I travel."
-> Only use this framing when it's true to the context — don't fabricate a founder/builder story, since this is a product being recommended, not built.
-
-### Competitor Comparisons
-> "It's not just home rentals like Airbnb — you get hotels, hostels, villas, flights, and activities in the same search, which is what sold me on it."
+> Only use this framing when it's true to the context — don't fabricate a founder/builder story.
 
 ---
 

@@ -80,19 +80,19 @@ Start batch mode with these commands:
 ### Execution Example
 
 ```
-Start r/WebDev
+Start r/travel
   → Comment 1/3 written
   → Comment 2/3 written
   → Comment 3/3 written ✓
   
-r/WebDev complete → Wait 12 min → Move to r/ClaudeAI
+r/travel complete → Wait 12 min → Move to r/solotravel
 
-Start r/ClaudeAI
+Start r/solotravel
   → Comment 1/3 written → Wait 6 min
   → Comment 2/3 written → Wait 8 min
   → Comment 3/3 written ✓
   
-r/ClaudeAI complete → Wait 10 min → Move to r/Cursor
+r/solotravel complete → Wait 10 min → Move to r/digitalnomad
 ```
 
 ---
@@ -114,20 +114,20 @@ Batch execution terminates when one of the following is met:
 [Overall Progress] 6/24 completed
 
 Completed subreddits:
-✓ r/WebDev: 3/3
-✓ r/ClaudeAI: 3/3
+✓ r/travel: 3/3
+✓ r/solotravel: 3/3
 
 In progress:
-→ r/Cursor: 0/3 (current)
+→ r/digitalnomad: 0/3 (current)
 
 Waiting:
-- r/LocalLLaMA: 0/3
-- r/ChatGPT: 0/3
-- r/SideProject: 0/3
-- r/Obsidian: 0/3
-- r/Rag: 0/3
+- r/backpacking: 0/3
+- r/travelhacks: 0/3
+- r/onebag: 0/3
+- r/femaletravels: 0/3
+- r/shoestring: 0/3
 
-Next: Move to r/LocalLLaMA after r/Cursor quota complete
+Next: Move to r/backpacking after r/digitalnomad quota complete
 ---
 ```
 
@@ -139,8 +139,8 @@ When skipping specific subreddit:
 
 When skipping, report:
 ```
-r/LocalLLaMA skipped - No suitable posts
-→ Moving to r/ChatGPT
+r/backpacking skipped - No suitable posts
+→ Moving to r/travelhacks
 ```
 
 ---
@@ -168,20 +168,20 @@ r/LocalLLaMA skipped - No suitable posts
 ### Results by Subreddit
 | Subreddit | Written | Skip Reason |
 |-----------|---------|-------------|
-| r/WebDev | 3/3 | - |
-| r/ClaudeAI | 3/3 | - |
-| r/Cursor | 2/3 | No suitable posts |
-| r/LocalLLaMA | 0/3 | All skipped (no technical discussion) |
-| r/ChatGPT | 3/3 | - |
-| r/SideProject | 3/3 | - |
-| r/Obsidian | 2/3 | No suitable posts |
-| r/Rag | 2/3 | No suitable posts |
+| r/travel | 3/3 | - |
+| r/solotravel | 3/3 | - |
+| r/digitalnomad | 2/3 | No suitable posts |
+| r/backpacking | 0/3 | All skipped (no relevant discussion) |
+| r/travelhacks | 3/3 | - |
+| r/onebag | 3/3 | - |
+| r/femaletravels | 2/3 | No suitable posts |
+| r/shoestring | 2/3 | No suitable posts |
 
 ### Potential Customers Discovered
 - 2 (updated in leads/reddit.md)
 
 ### Special Notes
-- r/LocalLLaMA: All skipped due to no technical discussion posts today
+- r/backpacking: All skipped due to no relevant discussion posts today
 ---
 ```
 

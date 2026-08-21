@@ -80,15 +80,18 @@ npm install
 
 ```
 auto-commenter/
-├── .claude/skills/reddit-commenter/
-│   ├── SKILL.md                      # Single comment workflow
-│   ├── BATCH.md                      # Batch mode execution
-│   └── resources/
-│       ├── personalization_reddit.md # YOUR writing style (customize this)
-│       ├── subreddits.md             # Target community analysis
-│       └── product.md                # Your product info (optional)
-├── tracking/reddit/                  # Daily activity logs
-├── leads/reddit.md                   # Discovered potential customers
+├── .claude/skills/
+│   ├── reddit-commenter/
+│   │   ├── SKILL.md                      # Single comment workflow
+│   │   ├── BATCH.md                      # Batch mode execution
+│   │   └── resources/
+│   │       ├── personalization_reddit.md # YOUR writing style (customize this)
+│   │       ├── subreddits.md             # Target community analysis
+│   │       └── product.md                # Your product info (optional)
+│   ├── quora-commenter/                  # Same structure, adapted for Q&A format
+│   └── tripadvisor-commenter/            # Same structure, ⚠️ competitor-risk warning in SKILL.md
+├── tracking/{reddit,quora,tripadvisor}/  # Daily activity logs per platform
+├── leads/{reddit,quora,tripadvisor}.md   # Discovered potential customers per platform
 ├── SETUP.md                          # Detailed setup guide
 └── CONTRIBUTING.md                   # Contribution guidelines
 ```
@@ -130,12 +133,29 @@ auto-commenter/
 
 ## Multi-Platform Support
 
-Currently supports **Reddit**. To add other platforms:
+Supports **Reddit**, **Quora**, and **TripAdvisor Forums**. To add other platforms:
 
 1. Copy `.claude/skills/reddit-commenter/` → `.claude/skills/[platform]-commenter/`
 2. Customize `personalization_[platform].md` with platform-specific style
 3. Update `SKILL.md` and `BATCH.md` for platform APIs/browser automation
 4. Create `tracking/[platform]/` and `leads/[platform].md`
+
+### Quora
+
+Question-and-answer format instead of post-and-comment. Answers are written
+longer than Reddit comments (Quora rewards depth), and Quora explicitly
+permits naming a product when it's the genuine answer to what's asked — the
+constraint is answer quality, not the mention itself. See
+`.claude/skills/quora-commenter/SKILL.md`.
+
+### TripAdvisor Forums
+
+⚠️ **Higher risk than Reddit or Quora**: TripAdvisor is a direct competitor
+to most travel-booking products (it sells its own bookings), and its forum
+moderation is specifically tuned to catch accounts steering readers to
+outside booking sites. The skill defaults to **no product mentions at all**
+on this platform unless separately confirmed. See the warning at the top of
+`.claude/skills/tripadvisor-commenter/SKILL.md` before using it.
 
 **Coming soon:** Twitter, LinkedIn, Discord templates
 

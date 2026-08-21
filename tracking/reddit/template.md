@@ -9,14 +9,14 @@
 
 | Subreddit | Today's Comments | Daily Limit | Last Comment |
 |-----------|------------------|-------------|--------------|
-| r/WebDev | 0 | 3 | - |
-| r/ClaudeAI | 0 | 3 | - |
-| r/Cursor | 0 | 3 | - |
-| r/LocalLLaMA | 0 | 3 | - |
-| r/ChatGPT | 0 | 3 | - |
-| r/SideProject | 0 | 3 | - |
-| r/Obsidian | 0 | 3 | - |
-| r/Rag | 0 | 3 | - |
+| r/travel | 0 | 3 | - |
+| r/solotravel | 0 | 3 | - |
+| r/digitalnomad | 0 | 3 | - |
+| r/backpacking | 0 | 3 | - |
+| r/travelhacks | 0 | 3 | - |
+| r/onebag | 0 | 3 | - |
+| r/femaletravels | 0 | 3 | - |
+| r/shoestring | 0 | 3 | - |
 
 **Today's Total Comments**: 0
 **Next Target Subreddit**: (Select from subreddits with no activity yet)

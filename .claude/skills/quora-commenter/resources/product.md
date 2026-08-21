@@ -1,5 +1,9 @@
 # Product Information: CuddlyNest
 
+> Same product as the Reddit skill's product.md — copied and lightly
+> adapted for Quora's answer format. Keep both files in sync if the product
+> positioning changes.
+
 ---
 
 ## Core Value
@@ -39,20 +43,23 @@
 
 ---
 
-## Reddit-Friendly Descriptions
+## Quora-Friendly Descriptions
 
 ### Product Description
-> "CuddlyNest is basically a travel app that lets you search hotels, homes, flights, and things-to-do in one place instead of bouncing between five different sites."
+> "CuddlyNest is a travel app that lets you search hotels, homes, flights, and things-to-do in one place instead of bouncing between five different sites."
 
 ### Pain Point Empathy
-> "I got so tired of having Airbnb, Booking, and a flights tab all open at once just to plan one trip."
+> "I got tired of having Airbnb, Booking, and a flights tab all open at once just to plan one trip."
 
 ### Honest Reviewer Angle (not a founder story)
 > "Not affiliated, just started using it because I wanted one place to compare stays instead of checking three apps every time I travel."
 > Only use this framing when it's true to the context — don't fabricate a founder/builder story, since this is a product being recommended, not built.
 
 ### Competitor Comparisons
-> "It's not just home rentals like Airbnb — you get hotels, hostels, villas, flights, and activities in the same search, which is what sold me on it."
+> "It's not just home rentals like Airbnb — you get hotels, hostels, villas, flights, and activities in the same search, which is what made me switch."
+
+### Quora answer-length version (for how-to/comparison answers)
+> "For the accommodation side specifically, I use CuddlyNest since it pulls Airbnb, Booking, and hotel listings into one search per city — useful once you're planning more than 2-3 stops and don't want five tabs open per leg."
 
 ---
 
